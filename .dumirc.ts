@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  outputPath: 'build',
+  outputPath: 'dist',
   themeConfig: {
     name: 'GM命令',
     logo: '',
@@ -10,5 +10,6 @@ export default defineConfig({
       { title: '物品相关', link: '/goods' },
       { title: '声望', link: '/reputation' },
     ],
+    // publicPath: '.'
   },
 });
