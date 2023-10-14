@@ -1,0 +1,77 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "Index",
+          "meta": {}
+        },
+        {
+          "title": "Foo",
+          "path": "/foo",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "Goods",
+          "path": "/goods",
+          "meta": {},
+          "children": [
+            {
+              "path": "/goods/equip",
+              "title": "装备",
+              "meta": {}
+            },
+            {
+              "path": "/goods/jewel",
+              "title": "珠宝加工",
+              "meta": {}
+            },
+            {
+              "path": "/goods/mounts",
+              "title": "坐骑",
+              "meta": {}
+            },
+            {
+              "path": "/goods/pet",
+              "title": "宠物",
+              "meta": {}
+            },
+            {
+              "path": "/goods/toy",
+              "title": "玩具",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Person",
+          "path": "/person",
+          "meta": {},
+          "children": [
+            {
+              "path": "/person/base",
+              "title": "基础信息",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "wow-doc",
+  "mode": "doc",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}
