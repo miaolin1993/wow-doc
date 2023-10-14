@@ -1,0 +1,95 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "Index",
+          "meta": {}
+        },
+        {
+          "title": "Goods",
+          "path": "/goods",
+          "meta": {},
+          "children": [
+            {
+              "path": "/goods",
+              "title": "核心命令",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
+              "path": "/goods/equip",
+              "title": "装备",
+              "meta": {}
+            },
+            {
+              "path": "/goods/jewel",
+              "title": "珠宝加工",
+              "meta": {}
+            },
+            {
+              "path": "/goods/mounts",
+              "title": "坐骑",
+              "meta": {}
+            },
+            {
+              "path": "/goods/pet",
+              "title": "宠物",
+              "meta": {}
+            },
+            {
+              "path": "/goods/toy",
+              "title": "玩具",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Person",
+          "path": "/person",
+          "meta": {},
+          "children": [
+            {
+              "path": "/person",
+              "title": "基础命令",
+              "meta": {}
+            },
+            {
+              "path": "/person/base",
+              "title": "基础信息",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Reputation",
+          "path": "/reputation",
+          "meta": {},
+          "children": [
+            {
+              "path": "/reputation",
+              "title": "声望命令",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "wow-doc",
+  "mode": "doc",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}

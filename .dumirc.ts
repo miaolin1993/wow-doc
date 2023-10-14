@@ -3,12 +3,12 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   outputPath: 'build',
   themeConfig: {
-    name: '常用GM命令文档',
+    name: 'GM命令',
     logo: '',
     nav: [
-      { title: '角色相关', link: '/persion'},
-      { title: '物品相关', link: '/goods'},
-      { title: '声望', link: '/reputation'},
-    ]
+      { title: '角色相关', link: '/person' },
+      { title: '物品相关', link: '/goods' },
+      { title: '声望', link: '/reputation' },
+    ],
   },
 });
