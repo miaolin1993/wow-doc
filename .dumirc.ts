@@ -10,6 +10,7 @@ export default defineConfig({
       { title: '物品相关', link: '/goods' },
       { title: '声望', link: '/reputation' },
     ],
+    // 静态资源路径
     // publicPath: '.'
   },
 });
