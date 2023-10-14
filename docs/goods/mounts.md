@@ -11,7 +11,7 @@ order: 2
 
 .additem 33224 幽灵虎
 
-.additem 33458 凤凰奥的灰烬
+.additem 32458 凤凰奥的灰烬
 
 .additem 46778 魔法鸡蛋
 
